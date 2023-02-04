@@ -1,0 +1,19 @@
+@baseUrl = http://localhost:8000/
+
+
+POST {{baseUrl}}am/user/register
+Content-Type: application/json
+
+
+{
+  "first_name": "lida",
+  "last_name": "Ryshkina",
+  "email": "lida@gmail.com",
+  "password": "s111111111114i",
+  "company": "5chka",
+  "position": "worker"
+}
+
+
+
+
